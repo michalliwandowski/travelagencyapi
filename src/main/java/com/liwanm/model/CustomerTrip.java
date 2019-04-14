@@ -68,7 +68,11 @@ public class CustomerTrip {
 
     @Override
     public String toString() {
+<<<<<<< HEAD
+        return "CustomerTripService{" +
+=======
         return "CustomerTrip{" +
+>>>>>>> 9d7b7cdddf400b2496ea8aedbf7be022c170e95b
                 "id=" + id +
                 ", idCustomer=" + idCustomer +
                 ", idTrip=" + idTrip +
