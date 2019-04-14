@@ -68,7 +68,7 @@ public class CustomerTrip {
 
     @Override
     public String toString() {
-        return "CustomerTrip{" +
+        return "CustomerTripService{" +
                 "id=" + id +
                 ", idCustomer=" + idCustomer +
                 ", idTrip=" + idTrip +

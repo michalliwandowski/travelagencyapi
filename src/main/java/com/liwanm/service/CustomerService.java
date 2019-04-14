@@ -1,10 +1,12 @@
 package com.liwanm.service;
 
 import com.liwanm.model.Customer;
+import com.liwanm.model.Trip;
 
 import java.util.List;
 
 public interface CustomerService {
+
     //Save the record
     long save(Customer customer);
 
@@ -19,4 +21,7 @@ public interface CustomerService {
 
     //Delete a record
     void delete(long id);
+
+    //Get all the records
+    List<Trip> getTrips();
 }

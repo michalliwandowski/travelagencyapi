@@ -2,6 +2,7 @@ package com.liwanm.service;
 
 import com.liwanm.dao.CustomerDAO;
 import com.liwanm.model.Customer;
+import com.liwanm.model.Trip;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -42,5 +43,10 @@ public class CustomerServiceImp implements CustomerService {
     @Transactional
     public void delete(long id) {
         customerDAO.delete(id);
+    }
+
+    @Override
+    public List<Trip> getTrips() {
+        return null;
     }
 }
